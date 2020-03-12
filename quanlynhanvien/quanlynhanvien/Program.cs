@@ -19,13 +19,13 @@ namespace quanlynhanvien
 			DS menu = new DS();
 			List<Clv> ListEmployee = new List<Clv>();
 			int iLuaChon;
-			menu.AddItem("Input Employee");//0
-			menu.AddItem("Delete Employee");//1
-			menu.AddItem("Edit Employee");//2
-			menu.AddItem("Watch List Employee");//3
-			menu.AddItem("Cancle");//4
+			menu.AddItem("Nhap danh sach nhan vien");
+			menu.AddItem("Xoa danh sach nhan vien");
+			menu.AddItem("Sua danh sachnhan vien");
+			menu.AddItem("Danh sach nhan vien");
+			menu.AddItem("Cancle");
 			do{
-				iLuaChon = menu.DisplayMenu();
+				iLuaChon = menu.DisplayDS();
 				if(iLuaChon == 0){
 					Clv employee = new Clv ();
 					employee.InputInfor();
@@ -38,8 +38,8 @@ namespace quanlynhanvien
 						DSEmpl.AddItem(empl.Name);
 					}
 					int iDelete = 0;
-					iDelete = DSEmpl.DisplayMenu();
-					Console.WriteLine("Delete Employee: {0}(Yes: 1| No: 0)",ListEmployee[iDelete]);
+					iDelete = DSEmpl.DisplayDS();
+					Console.WriteLine("Xoa danh sach nhan vien: {0}(Co: 1| khong: 0)",ListEmployee[iDelete]);
 					int check = Int32.Parse(Console.ReadLine());
 					if(check == 1){
 						ListEmployee.Remove(ListEmployee[iDelete]);
@@ -51,7 +51,7 @@ namespace quanlynhanvien
 						DSEmpl.AddItem(empl.Name);
 					}
 					int iEdit = 0;
-					iEdit = DSEmpl.DisplayMenu();
+					iEdit = DSEmpl.DisplayDS();
 					Clv employee = new Clv ();
 					employee.InputInfor();
 					ListEmployee[iEdit] = employee;

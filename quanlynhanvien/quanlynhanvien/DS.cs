@@ -26,7 +26,7 @@ namespace quanlynhanvien
         {
             Items.Add(psItem);
         }
-        public int DisplayMenu()
+        public int DisplayDS()
         {
             if (Items.Count == 0)
             {
