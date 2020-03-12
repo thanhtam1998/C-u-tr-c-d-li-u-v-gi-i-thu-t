@@ -1,0 +1,6 @@
+C:\Users\tamng\Documents\SharpDevelop Projects\quanlynhanvien\quanlynhanvien\obj\Debug\quanlynhanvien.csprojResolveAssemblyReference.cache
+C:\Users\tamng\Documents\SharpDevelop Projects\quanlynhanvien\quanlynhanvien\bin\Debug\quanlynhanvien.exe.config
+C:\Users\tamng\Documents\SharpDevelop Projects\quanlynhanvien\quanlynhanvien\bin\Debug\quanlynhanvien.exe
+C:\Users\tamng\Documents\SharpDevelop Projects\quanlynhanvien\quanlynhanvien\bin\Debug\quanlynhanvien.pdb
+C:\Users\tamng\Documents\SharpDevelop Projects\quanlynhanvien\quanlynhanvien\obj\Debug\quanlynhanvien.exe
+C:\Users\tamng\Documents\SharpDevelop Projects\quanlynhanvien\quanlynhanvien\obj\Debug\quanlynhanvien.pdb
